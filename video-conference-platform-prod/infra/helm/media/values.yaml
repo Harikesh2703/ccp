@@ -1,0 +1,7 @@
+replicaCount: 2
+image:
+  repository: <ACR_LOGIN_SERVER>/media
+  tag: latest
+service:
+  type: ClusterIP
+  port: 5000
